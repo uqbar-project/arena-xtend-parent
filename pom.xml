@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   
   <artifactId>arena-xtend-parent</artifactId>
-  <version>3.5.1-SNAPSHOT</version>
+  <version>3.5.1</version>
   <packaging>pom</packaging>
   
   <name>Arena Xtend Parent</name>
@@ -57,7 +57,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore></ignore>
+										<ignore />
 									</action>
 								</pluginExecution>
 							</pluginExecutions>
@@ -80,4 +80,8 @@
 			<version>2.7.3</version>
 		</dependency>
 	</dependencies>
+
+  <scm>
+    <tag>arena-xtend-parent-3.5.1</tag>
+  </scm>
 </project>
