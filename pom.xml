@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
  
     <artifactId>arena-xtend-parent</artifactId>
-    <version>3.6.2</version>
+    <version>3.6.3-SNAPSHOT</version>
     <packaging>pom</packaging>
  
     <name>Arena Xtend Parent</name>
@@ -115,8 +115,4 @@
             <version>4.11</version>
         </dependency>
     </dependencies>
-
-  <scm>
-    <tag>v3.6.2</tag>
-  </scm>
 </project>
