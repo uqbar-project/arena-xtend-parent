@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
  
     <artifactId>arena-xtend-parent</artifactId>
-    <version>3.6.2-SNAPSHOT</version>
+    <version>3.6.2</version>
     <packaging>pom</packaging>
  
     <name>Arena Xtend Parent</name>
@@ -25,7 +25,7 @@
             <url>http://uqbar-wiki.org/mvn/releases</url>
         </repository>
         <repository>
-            <snapshots/>
+            <snapshots />
             <id>uqbar-wiki.org-snapshots</id>
             <name>uqbar-wiki.org-snapshots</name>
             <url>http://uqbar-wiki.org/mvn/snapshots</url>
@@ -77,7 +77,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore/>
+                                        <ignore />
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
@@ -115,4 +115,8 @@
             <version>4.11</version>
         </dependency>
     </dependencies>
+
+  <scm>
+    <tag>v3.6.2</tag>
+  </scm>
 </project>
